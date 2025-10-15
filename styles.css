@@ -10,8 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Fondo - reemplaza la URL con tu imagen */
-    background-image: url('/IMG/Fondo.png'); /* CAMBIA ESTA RUTA */
+    background-image: url('/IMG/Fondo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -171,3 +170,4 @@ body {
     }
 
 }
+
