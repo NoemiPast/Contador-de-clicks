@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('/IMG/Fondo.png');
+    background-image: url('./IMG/Fondo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -170,4 +170,5 @@ body {
     }
 
 }
+
 
