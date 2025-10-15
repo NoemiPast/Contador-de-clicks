@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     /* Fondo - reemplaza la URL con tu imagen */
-    background-image: url('/IMG/Fondo.svg'); /* CAMBIA ESTA RUTA */
+    background-image: url('/IMG/Fondo.png'); /* CAMBIA ESTA RUTA */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -169,4 +169,5 @@ body {
         width: 100%;
         max-width: 250px;
     }
+
 }
