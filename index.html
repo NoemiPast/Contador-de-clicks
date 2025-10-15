@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de clicks </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="counter-display">
+            <span id="count">0</span>
+        </div>
+        
+        <div class="buttons-container">
+            <button id="incrementBtn" class="btn btn-primary">
+                <span class="btn-text">Hacer Click</span>
+                <span class="btn-shadow"></span>
+            </button>
+            
+            <button id="resetBtn" class="btn btn-secondary">
+                Reset
+            </button>
+        </div>
+        
+        <div class="stats">
+            <p>Clicks por segundo: <span id="cps">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
